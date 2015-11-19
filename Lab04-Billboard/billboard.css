@@ -1,0 +1,379 @@
+/*
+ * 2012036741
+ * 김영진 
+ */
+
+/* Default */
+
+#brand .fa-facebook {
+    color:#3b5998;
+}
+#brand .fa-twitter {
+    color:#55acee;
+}
+#brand .fa-google {
+    color : #dd4b39;
+}
+#brand .fa-pinterest{
+    color : #c8232c;
+}
+#brand .fa-instagram {
+    color :#3f729b;
+}
+#brand .fa-tumblr{
+    color : #34526f;
+}
+#search-wrap{
+    padding :0;
+    overflow: hidden;
+    float : none;
+    position: relative;
+}
+#search-wrap input{
+    border : none;
+    padding: 0.65em 0.75em;
+    font-size: 16px;
+    background-color: white;
+    width: 94%;
+    z-index: 1;
+}
+#search-wrap button {
+    border : none;
+    background-color: white;
+    top :3px;
+    right : 4px;
+    padding: 0.65em 0.75em;
+    position: absolute;
+    font-size: 13px;
+    z-index: 2;
+}
+
+
+/* I made */
+
+body {
+	font-family: Brown, verdana, sans-serif;
+	max-width: 1024px;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+header div div {
+	float: left;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-right: 30px;
+}
+
+header div div:nth-child(10) {
+	color: #ff6567;
+}
+
+header div div:hover {
+	color: #1cace2;
+	cursor: pointer;
+}
+
+/* Brand Section */
+div#brand {
+	padding-top: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+img#billboardLogo {
+	width: 300px;
+	height: 62px;
+}
+
+div#brand div {
+	margin-top: 45px;
+	float: right;
+}
+
+div#brand div a {
+	text-decoration: none;
+}
+
+/* Navigation Section */
+nav div {
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D9D9D8;
+
+}
+
+nav div:not(#search-wrap) {
+	padding-top: 0.65em;
+	padding-bottom: 0.65em;
+	padding-left: 0.72em;
+	padding-right: 0.72em;
+}
+
+nav div:not(#search-wrap):hover {
+	border-width: 2px;
+	border-color: black;
+	margin: -1px; /* The answer of 1% +point */
+}
+
+nav div#search-wrap {
+	padding-top: 0.15em;
+	padding-bottom: 0.15em;
+}
+
+img#theHot100 {
+	display: block;
+	margin: auto;
+}
+
+/* Weekbar Section */
+div#weekbar {
+	background-color: black;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+div#weekbar div div {
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 50%;
+	font-size: 1.25em;
+}
+
+div#weekbar div div:nth-child(1) {
+	background-color: #3b5998;
+}
+
+div#weekbar div div:nth-child(2) {
+	background-color: #55acee;
+	margin-left: 0.25em;
+}
+
+/* Sidebar Section */
+aside {
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 300px;
+	float: right;
+}
+
+aside div#asideHeader {
+	background-color: #484647;
+	padding: 0.75em;
+}
+
+aside div#asideHeader span {
+	color: black;
+}
+
+aside div#asideBody > div {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #989898;
+	overflow: hidden;
+}
+
+aside div#asideBody > div > div:not(:nth-child(1)) {
+	float: left;
+}
+
+aside div#asideBody > div > div:nth-child(1) {
+	color: #989898;
+	padding: 1em;
+}
+
+aside div#asideBody > div > div:nth-child(2) {
+	width: 45px;
+	font-size: 2em;
+	margin-top: 6px;
+	text-align: center;
+}
+
+aside div#asideBody > div > div:nth-child(3) {
+	overflow:hidden;
+}
+
+aside div#asideBody > div > div:nth-child(4) i {
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 50%;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+aside img {
+	width: 2.5em;
+	height: 2.5em;
+	margin: 6px;
+	float: left;
+}
+
+aside p {
+	width: 192px;
+	margin: 0px;
+}
+
+aside p span:nth-child(1) {
+	display: block;
+	font-size: 1em;
+}
+
+aside p span:nth-child(2) {
+	display: block;
+	font-size: 12px;
+	color: #1cace2;
+}
+
+/* Main Chart Section */
+article {
+	margin-top: 10px;
+	max-width: 714px;
+}
+
+article span{
+	display: block;
+}
+
+article > div {
+	height: 104px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-top-color: #CDCDCD;
+	border-bottom-color: white;
+	overflow: hidden;
+}
+
+article > div > div {
+	float: left;
+}
+
+article > div > div:nth-child(1) { /* History Division */
+	width: 34px;
+	line-height: 104px;
+	text-align: center;
+	color: #8c8e90;
+	background-color: rgb(231, 231, 231);
+}
+
+article > div > div:nth-child(1) i.fa-arrow-up {
+	color: #05c648;
+}
+
+article > div > div:nth-child(1) i.fa-arrow-down {
+	color: #f93c33;
+}
+
+article > div > div:nth-child(2) { /* Rank Division */
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+article > div > div:nth-child(2) span:nth-child(1) {
+	font-size: 62px;
+	text-align: center;
+}
+
+article > div > div:nth-child(2) span:nth-child(2) {
+	font-size: 12.4px;
+	line-height: 1;
+	color: #989898;
+}
+
+article > div > div:nth-child(3) { /* Image, Title & Artist Division */
+	overflow: hidden;
+}
+
+article > div > div:nth-child(3) img {
+	width: 91px;
+	height: 91px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-right: 12px;
+	float: left;
+}
+
+article > div > div:nth-child(3) p {
+	float: left;
+}
+
+article > div > div:nth-child(3) span:nth-child(1) {
+	font-size: 24px;
+}
+
+article > div > div:nth-child(3) span:nth-child(2) {
+	font-size: 16px;
+	color: #1cace2;
+}
+
+article > div > div:nth-child(4) { /* Play Icon */
+	float: right;
+}
+
+article > div > div:nth-child(4) i {
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+/* Footer Section */
+footer {
+	background-color: black;
+	overflow: hidden;
+}
+
+footer div {
+	float: right;
+}
+
+/* Final Touch */
+article > div:hover {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-top-color: black;
+	border-bottom-color: black;
+}
+
+.fa-play:hover {
+	color: #1cace2;
+	cursor: pointer;
+}
+
+p span:nth-child(2):hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
