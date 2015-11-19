@@ -1,0 +1,79 @@
+
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+	background-image: url(blueTextureBG.jpg);
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+}
+
+div#body {
+	background-color: white;
+	overflow: hidden;
+}
+
+div#header {
+	overflow: hidden;
+	background-color: #8E8E8E;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+#header ul {
+	font-size: 14pt;
+	color: #B7B7B7;
+}
+
+img {
+	float: right;
+}
+
+div.article {
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+	margin-left: 150px;
+}
+
+div.section h2 {
+	border-color: blue;
+	border-bottom: dashed;
+	border-width: 2px;
+	text-align: right;
+}
+
+div.section {
+	border-color: #1D2475;
+	border-style: solid;
+	border-width: 4px;
+	background-color: #CCCCCC;
+	border-radius: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+div#sidebar {
+	border-color: #1D2475;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 15px;
+	float: left;
+	top: 263px;
+	position: absolute;
+	background-color: #008299;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#sidebar ul li a {
+	text-decoration: none;
+	color: orange;
+}
+
+div * :hover {
+	background-color: #ffff00;
+}
